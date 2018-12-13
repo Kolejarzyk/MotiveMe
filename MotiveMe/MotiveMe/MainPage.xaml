@@ -2,14 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MotiveMe"
-             x:Class="MotiveMe.MainPage">
-
-    <StackLayout>
+             x:Class="MotiveMe.MainPage"
+            BackgroundColor="Purple">
+            
+    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-        <Button Text="Click me" Clicked="Button_Clicked" />
+        <Label Text="Motive Me"
+               FontSize="43"
+         />
+        <Label Text="We need your name to start your Self-Motivated Journey" />
+        <Entry Placeholder="MotiveName"/>
+        <Button Text="MotiveMe" 
+                WidthRequest="120"
+                HeightRequest="50"
+                ></Button>
     </StackLayout>
 
 </ContentPage>

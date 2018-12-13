@@ -12,6 +12,7 @@ namespace MotiveMe
         public MainPage()
         {
             InitializeComponent();
+
         }
 
         int count = 0;
