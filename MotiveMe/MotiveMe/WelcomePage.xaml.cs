@@ -15,6 +15,16 @@ namespace MotiveMe
 		public WelcomePage ()
 		{
 			InitializeComponent ();
-		}
-	}
+
+            DatePicker datePicker = new DatePicker
+            {
+                Date = new DateTime().ToUniversalTime()
+            };
+        }
+
+        private void Button_SizeChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
