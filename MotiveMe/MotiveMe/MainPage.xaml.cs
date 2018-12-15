@@ -1,8 +1,4 @@
-﻿    using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using Xamarin.Forms;
 
 namespace MotiveMe
@@ -15,12 +11,9 @@ namespace MotiveMe
 
         }
 
-        int count = 0;
-        private void Button_Clicked(object sender, EventArgs e)
+        private async void Button_Clicked(object sender, EventArgs e)
         {
-            count++;
-
-            ((Button)sender).Text = $"You clicked {count} times";
+            await this.Navigation.PushAsync(new MSPage());
         }
     }
 }
