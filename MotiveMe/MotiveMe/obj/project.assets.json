@@ -349,11 +349,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kolejarz\\source\\repos\\MotiveMe\\MotiveMe\\MotiveMe\\MotiveMe.csproj",
+      "projectUniqueName": "C:\\Users\\Kolejarz\\Documents\\Project\\MotiveMe\\MotiveMe\\MotiveMe\\MotiveMe.csproj",
       "projectName": "MotiveMe",
-      "projectPath": "C:\\Users\\Kolejarz\\source\\repos\\MotiveMe\\MotiveMe\\MotiveMe\\MotiveMe.csproj",
+      "projectPath": "C:\\Users\\Kolejarz\\Documents\\Project\\MotiveMe\\MotiveMe\\MotiveMe\\MotiveMe.csproj",
       "packagesPath": "C:\\Users\\Kolejarz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kolejarz\\source\\repos\\MotiveMe\\MotiveMe\\MotiveMe\\obj\\",
+      "outputPath": "C:\\Users\\Kolejarz\\Documents\\Project\\MotiveMe\\MotiveMe\\MotiveMe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

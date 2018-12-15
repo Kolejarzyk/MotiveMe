@@ -719,11 +719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kolejarz\\source\\repos\\MotiveMe\\MotiveMe\\MotiveMe.iOS\\MotiveMe.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Kolejarz\\Documents\\Project\\MotiveMe\\MotiveMe\\MotiveMe.iOS\\MotiveMe.iOS.csproj",
       "projectName": "MotiveMe.iOS",
-      "projectPath": "C:\\Users\\Kolejarz\\source\\repos\\MotiveMe\\MotiveMe\\MotiveMe.iOS\\MotiveMe.iOS.csproj",
+      "projectPath": "C:\\Users\\Kolejarz\\Documents\\Project\\MotiveMe\\MotiveMe\\MotiveMe.iOS\\MotiveMe.iOS.csproj",
       "packagesPath": "C:\\Users\\Kolejarz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kolejarz\\source\\repos\\MotiveMe\\MotiveMe\\MotiveMe.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Kolejarz\\Documents\\Project\\MotiveMe\\MotiveMe\\MotiveMe.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -740,8 +740,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Kolejarz\\source\\repos\\MotiveMe\\MotiveMe\\MotiveMe\\MotiveMe.csproj": {
-              "projectPath": "C:\\Users\\Kolejarz\\source\\repos\\MotiveMe\\MotiveMe\\MotiveMe\\MotiveMe.csproj"
+            "C:\\Users\\Kolejarz\\Documents\\Project\\MotiveMe\\MotiveMe\\MotiveMe\\MotiveMe.csproj": {
+              "projectPath": "C:\\Users\\Kolejarz\\Documents\\Project\\MotiveMe\\MotiveMe\\MotiveMe\\MotiveMe.csproj"
             }
           }
         }

@@ -2,15 +2,31 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MotiveMe"
-             x:Class="MotiveMe.WelcomePage">
+             x:Class="MotiveMe.WelcomePage"
+             BackgroundColor="Purple"   >
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Motve Me"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="5,5,5,5">
+            <Label Text="Hello Pawel :D. It's time to celebrate another day :)"
+                VerticalOptions="Center" FontSize="32"  />
 
-            <Entry Placeholder="Put your name beacuse we want MotiveYou like a human beign" />
-            <Button Text="MotiveMe" />
+            <Label Text="20.10.2018"></Label>
+            
+            <Label Text="Those are goals you are going to achieve today!!!" />
+
+            <ListView SeparatorColor="Yellow">
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Make a sandwich </x:String>
+                        <x:String>Go to sleep</x:String>
+                        <x:String>Commit Suicide</x:String>
+                        <x:String>Running</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>
+            </ListView>
+
+            <Label Text="Do you want to expand your achievment goal?"/>
+            <Button Text="Add Goal" BackgroundColor="NavajoWhite" HorizontalOptions="Start"></Button>
+
         </StackLayout>
 
         
