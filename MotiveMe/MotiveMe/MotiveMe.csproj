@@ -14,6 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Alarms.xaml.cs">
+      <DependentUpon>Alarms.xaml</DependentUpon>
+    </Compile>
     <Compile Update="MSPageMenuItem.cs">
       <SubType>Code</SubType>
     </Compile>
