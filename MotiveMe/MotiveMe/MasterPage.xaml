@@ -8,7 +8,7 @@
             <ListView x:Name="listView" x:FieldModifier="public">
                 <ListView.ItemsSource>
                     <x:Array Type="{x:Type local:MasterPageItem}">
-                        <local:MasterPageItem Title="ActivityLog"  />
+                        <local:MasterPageItem Title="ActivityLog"  TargetType="{x:Type local:ActivityLogsPage}" />
                         <local:MasterPageItem Title="Day Profles"/>
                         <local:MasterPageItem Title="Alarms"/>
                         <local:MasterPageItem Title="Reminders"/>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="MotiveMe.ActivityLogsPage"
+             BackgroundColor="Purple">
+    <ContentPage.Content>
+        <StackLayout Padding="5,5,5,5">
+            <Label Text="Your Activity Logs" FontSize="29"/>
+            <TableView Intent="Settings">
+                <TableRoot>
+                    <TableSection Title="Make a sandwich" >
+                        <TextCell Text="Date: 29.10.2018" />
+                        <TextCell Text="Your Reward: Donut" />
+                    </TableSection>
+                    <TableSection Title="Go to sleep">
+                        <TextCell Text="Date: 28.11.2018" />
+                        <TextCell Text="Your Reward: Donut" />
+                    </TableSection>
+                    <TableSection Title="40 Pushups">
+                        <TextCell Text="Date: 02.09.2018" />
+                        <TextCell Text="Your Reward: Donut" />
+                    </TableSection>
+                    <TableSection Title="Running">
+                        <TextCell Text="Date: 10.10.2018" />
+                        <TextCell Text="Your Reward: Donut" />
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
