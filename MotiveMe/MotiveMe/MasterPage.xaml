@@ -12,7 +12,7 @@
                         <local:MasterPageItem Title="Day Profles"/>
                         <local:MasterPageItem Title="Alarms"/>
                         <local:MasterPageItem Title="Reminders"/>
-                        <local:MasterPageItem Title="Notes"/>
+                        <local:MasterPageItem Title="Notes" TargetType="{x:Type local:NotePage}"/>
                     </x:Array>
                 </ListView.ItemsSource>
                 <ListView.ItemTemplate>

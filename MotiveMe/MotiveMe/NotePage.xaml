@@ -8,7 +8,7 @@
         
         <Label Text="Notes" FontSize="30"/>
 
-        <Editor TextChanged="EditorTextChanged" />
+      
         <Button Text="Add Note"></Button>
         </StackLayout>
     </ContentPage.Content>

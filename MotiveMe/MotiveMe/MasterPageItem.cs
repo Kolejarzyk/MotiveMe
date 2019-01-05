@@ -2,7 +2,7 @@
 
 namespace MotiveMe
 {
-    class MasterPageItem
+    public class MasterPageItem
     {
         public string Title { get; set; }
 
