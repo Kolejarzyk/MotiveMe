@@ -17,12 +17,12 @@ namespace MotiveMe {
     public partial class MSPage : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::MotiveMe.MasterPage masterPage;
+        private global::Xamarin.Forms.ListView navigationDrawerList;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MSPage));
-            masterPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MotiveMe.MasterPage>(this, "masterPage");
+            navigationDrawerList = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "navigationDrawerList");
         }
     }
 }

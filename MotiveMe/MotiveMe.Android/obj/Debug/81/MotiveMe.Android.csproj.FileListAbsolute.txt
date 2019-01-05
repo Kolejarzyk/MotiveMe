@@ -206,8 +206,6 @@ C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.Android\obj\Debug
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.Android\obj\Debug\81\android\assets\System.Xml.pdb
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\bin\Debug\netstandard2.0\MotiveMe.dll
-C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.Android\bin\Debug\MotiveMe.dll.mdb
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.Android\obj\Debug\81\linksrc\FormsViewGroup.dll.mdb
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.Android\obj\Debug\81\linksrc\MotiveMe.dll.mdb
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
