@@ -4,12 +4,12 @@
              x:Class="MotiveMe.NotePage"
              BackgroundColor="Purple">
     <ContentPage.Content>
-        <StackLayout Padding="5,5,5,5">
+        <StackLayout Padding="5,5,5,5" x:Name="NotePageLayout" >
         
         <Label Text="Notes" FontSize="30"/>
 
-      
-        <Button Text="Add Note"></Button>
+
+            <Button Clicked="CreateNote_Clicked" Text="Create Note"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

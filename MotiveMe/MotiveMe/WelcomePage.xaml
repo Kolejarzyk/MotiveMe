@@ -17,7 +17,7 @@
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Make a sandwich </x:String>
                         <x:String>Go to sleep</x:String>
-                        <x:String>Commit Suicide</x:String>
+                        <x:String></x:String>
                         <x:String>Running</x:String>
                     </x:Array>
                 </ListView.ItemsSource>
