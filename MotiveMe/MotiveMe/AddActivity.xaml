@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MotiveMe.AddActivity" 
+             BackgroundColor="Purple">
+    
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Goal"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   Placeholder="Set your goal"
+                   x:Name="Goal">
+            </Entry>
+            <Label Text="Date"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <DatePicker HorizontalOptions="CenterAndExpand" 
+                        VerticalOptions="CenterAndExpand"  
+                        TextColor="White"  
+                        BackgroundColor="Transparent" 
+                        Format="MM-dd-yyyy" 
+                        x:Name="Date"/>
+            <Label Text="Reward"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   Placeholder="Set your goal" x:Name="Reward">
+            </Entry>
+            <Button Text="Add Goal" BackgroundColor="NavajoWhite" HorizontalOptions="Start" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

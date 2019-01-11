@@ -30,3 +30,4 @@ C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\obj\Debug\netstan
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\obj\Debug\netstandard2.0\Alarms.xaml.g.cs
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\obj\Debug\netstandard2.0\NotePage.xaml.g.cs
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\obj\Debug\netstandard2.0\CreateNotePage.xaml.g.cs
+C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\obj\Debug\netstandard2.0\AddActivity.xaml.g.cs
