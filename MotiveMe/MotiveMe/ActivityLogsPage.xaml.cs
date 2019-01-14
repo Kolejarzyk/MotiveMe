@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using MotiveMe.Model;
+using Xamarin.Forms;
 
 namespace MotiveMe
 {
@@ -10,10 +11,16 @@ namespace MotiveMe
             InitializeComponent();
 
             Activity.ItemsSource = AppDatabase.activityDao.GetAll();
-            
+            Activity.ItemTapped += Activity_ItemTapped;
 
 
+        }
 
+        private async void Activity_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var content = e.Item as Activity;
+       
+            await Navigation.PushAsync(new ActivityDetailPage(content));
         }
 
         private async void Button_Clicked(object sender, System.EventArgs e)
@@ -21,6 +28,6 @@ namespace MotiveMe
             await this.Navigation.PushAsync(new AddActivity());
         }
     }
+}
 
       
-}
