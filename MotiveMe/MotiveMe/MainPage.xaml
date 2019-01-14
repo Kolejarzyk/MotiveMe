@@ -10,7 +10,7 @@
                FontSize="43"
          />
         <Label Text="We need your name to start your Self-Motivated Journey" />
-        <Entry Placeholder="MotiveName"/>
+        <Entry Placeholder="MotiveName" x:Name="Name"/>
         <Button Text="MotiveMe" 
                 WidthRequest="120"
                 HeightRequest="50"

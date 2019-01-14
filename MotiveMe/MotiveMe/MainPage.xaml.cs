@@ -8,11 +8,12 @@ namespace MotiveMe
         public MainPage()
         {
             InitializeComponent();
-
+            NavigationPage.SetHasNavigationBar(this, false);
         }
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
+            AppDatabase.Name = Name.Text;
             await this.Navigation.PushAsync(new MSPage());
         }
     }

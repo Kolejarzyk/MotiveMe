@@ -13,7 +13,7 @@ namespace MotiveMe
         {
             
             InitializeComponent();
-            
+            NavigationPage.SetHasNavigationBar(this, false);
 
             MenuList = new List<MasterPageItem>();
 
@@ -42,11 +42,10 @@ namespace MotiveMe
 
         void OnMenuItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            var item = e.SelectedItem as MasterPageItem;
-            if (item != null)
+            if (e.SelectedItem is MasterPageItem item)
             {
                 Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
-               // masterPage.listView.SelectedItem = null;
+                // masterPage.listView.SelectedItem = null;
                 IsPresented = false;
             }
         }

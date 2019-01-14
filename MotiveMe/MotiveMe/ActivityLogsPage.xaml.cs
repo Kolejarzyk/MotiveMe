@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace MotiveMe
 {
@@ -15,6 +8,19 @@ namespace MotiveMe
         public ActivityLogsPage()
         {
             InitializeComponent();
+
+            Activity.ItemsSource = AppDatabase.activityDao.GetAll();
+            
+
+
+
+        }
+
+        private async void Button_Clicked(object sender, System.EventArgs e)
+        {
+            await this.Navigation.PushAsync(new AddActivity());
         }
     }
+
+      
 }
