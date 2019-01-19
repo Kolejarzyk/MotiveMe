@@ -5,9 +5,7 @@
              BackgroundColor="Purple"   >
     <ContentPage.Content>
         <StackLayout Padding="5,5,5,5">
-            <Label Text="Hello {Binding Name}. It's time to celebrate another day :)"
-                VerticalOptions="Center" FontSize="32"  />
-
+            <Label VerticalOptions="Center"  Text="{Binding Name, StringFormat='Hello {0}. It is time to celebrate another day :'}"/>
             <Label Text="20.10.2018"></Label>
             
             <Label Text="Those are goals you are going to achieve today!!!" />

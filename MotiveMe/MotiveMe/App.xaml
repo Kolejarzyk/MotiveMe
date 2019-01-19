@@ -4,7 +4,8 @@
              x:Class="MotiveMe.App">
     <Application.Resources>
         <Style TargetType="Label">
-            <Setter Property="FontFamily" Value="Lobster-Regular" />
+            <Setter Property="FontFamily" Value="Lobster-Regular"/>
+            <Setter Property="TextColor"  Value="White"/>
         </Style>
     </Application.Resources>
 </Application>

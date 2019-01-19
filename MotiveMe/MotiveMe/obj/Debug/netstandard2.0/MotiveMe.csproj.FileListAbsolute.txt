@@ -24,7 +24,6 @@ C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\obj\Debug\netstan
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\bin\Debug\netstandard2.0\MotiveMe.deps.json
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\bin\Debug\netstandard2.0\MotiveMe.dll
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\bin\Debug\netstandard2.0\MotiveMe.pdb
-C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\obj\Debug\netstandard2.0\MSPage.xaml.g.cs
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\obj\Debug\netstandard2.0\ActivityLogsPage.xaml.g.cs
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\obj\Debug\netstandard2.0\Alarms.xaml.g.cs
@@ -32,3 +31,4 @@ C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\obj\Debug\netstan
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\obj\Debug\netstandard2.0\CreateNotePage.xaml.g.cs
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\obj\Debug\netstandard2.0\AddActivity.xaml.g.cs
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\obj\Debug\netstandard2.0\ActivityDetailPage.xaml.g.cs
+C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe\obj\Debug\netstandard2.0\XamlC.stamp
