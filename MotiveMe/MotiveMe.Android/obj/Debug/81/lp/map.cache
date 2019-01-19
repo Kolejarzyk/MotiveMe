@@ -1,5 +1,7 @@
 FormsViewGroup
 MotiveMe
+Plugin.LocalNotifications.Abstractions
+Plugin.LocalNotifications
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common

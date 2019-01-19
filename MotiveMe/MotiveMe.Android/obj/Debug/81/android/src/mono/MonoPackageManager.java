@@ -109,6 +109,8 @@ class MonoPackageManager_Resources {
 		"MotiveMe.Android.dll",
 		"FormsViewGroup.dll",
 		"MotiveMe.dll",
+		"Plugin.LocalNotifications.Abstractions.dll",
+		"Plugin.LocalNotifications.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

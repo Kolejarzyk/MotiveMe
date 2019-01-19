@@ -5,40 +5,40 @@
             BackgroundColor="Purple">
             
     <ContentPage.Content>      
-        <Grid VerticalOptions="FillAndExpand" Padding="25,40,25,30" RowSpacing="20">      
+        <Grid VerticalOptions="FillAndExpand" Padding="25,40,25,30" RowSpacing="15">      
             <Grid.RowDefinitions>      
                 <RowDefinition Height="Auto"/>      
                 <RowDefinition Height="Auto"/>      
                 <RowDefinition Height="Auto"/>      
                 <RowDefinition Height="Auto"/>      
                 <RowDefinition Height="Auto"/>      
-            </Grid.RowDefinitions>      
+            </Grid.RowDefinitions>                
             <Grid Grid.Row="0">      
                 <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">      
-                    <Label Text="Notifications ON/OFF" TextColor="White" FontSize="16" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>      
-                    <Switch HorizontalOptions="EndAndExpand" VerticalOptions="Center"/>      
+                <Label Text="Set time:" HorizontalOptions="StartAndExpand" FontSize="15" TextColor="White" VerticalOptions="Center"/>      
+                <TimePicker HorizontalOptions="EndAndExpand" TextColor="White" BackgroundColor="Transparent" Format="t" x:Name="TimePicker"/>      
                 </StackLayout>      
             </Grid>      
             <Grid Grid.Row="1">      
-                <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">      
-                <Label Text="Set time:" HorizontalOptions="StartAndExpand" FontSize="15" TextColor="White" VerticalOptions="Center"/>      
-                <TimePicker HorizontalOptions="EndAndExpand" TextColor="White" BackgroundColor="Transparent" Format="t"/>      
+                 <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">      
+                <Label Text="Set date:" TextColor="White" FontSize="15" VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>      
+                 <DatePicker HorizontalOptions="EndAndExpand"  TextColor="White"  BackgroundColor="Transparent" Format="MM-dd-yyyy" x:Name="DatePicker"/>      
                 </StackLayout>      
             </Grid>      
             <Grid Grid.Row="2">      
-                 <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">      
-                <Label Text="Set date:" TextColor="White" FontSize="15" VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>      
-                 <DatePicker HorizontalOptions="EndAndExpand"  TextColor="White"  BackgroundColor="Transparent" Format="MM-dd-yyyy"/>      
-                </StackLayout>      
-            </Grid>      
-            <Grid Grid.Row="3">      
-                <StackLayout HorizontalOptions="FillAndExpand" Spacing="10">      
+                <StackLayout HorizontalOptions="FillAndExpand" Spacing="7">      
                  <Label Text="Alarm's Message:" FontSize="15" HorizontalOptions="StartAndExpand" TextColor="White" VerticalOptions="Center"/>      
-                 <Editor HeightRequest="120" Text=" {Binding MessageText}" TextColor="Purple" BackgroundColor="White" HorizontalOptions="FillAndExpand"/>      
+                 <Editor HeightRequest="40" Text=" {Binding MessageText}" TextColor="Purple" BackgroundColor="White" HorizontalOptions="FillAndExpand" x:Name="Title"/>      
                 </StackLayout>      
-            </Grid>      
-            <Grid Grid.Row="4">      
-                <Button Text="Save" Command="{Binding SaveCommand}" FontSize="15" TextColor="White" BackgroundColor="Purple"  HorizontalOptions="FillAndExpand" BorderRadius="15"/>      
+            </Grid>
+            <Grid Grid.Row="3">
+                <StackLayout HorizontalOptions="FillAndExpand" Spacing="7">
+                    <Label Text="Alarm's Message:" FontSize="15" HorizontalOptions="StartAndExpand" TextColor="White" VerticalOptions="Center"/>
+                    <Editor HeightRequest="40" Text=" {Binding MessageText}" TextColor="Purple" BackgroundColor="White" HorizontalOptions="FillAndExpand" x:Name="Body"/>
+                </StackLayout>
+            </Grid>
+            <Grid Grid.Row="4">
+                <Button Text="Save" FontSize="15" TextColor="White" BackgroundColor="Purple"  HorizontalOptions="FillAndExpand" BorderRadius="15" Clicked="Button_Clicked"/>
             </Grid>      
         </Grid>      
     </ContentPage.Content>

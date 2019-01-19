@@ -14,6 +14,7 @@ namespace MotiveMe
         InitializeComponent ();
 
             Name = AppDatabase.Name;
+            BindingContext = this;
             var activity = new Activity
             {
                 Date = new DateTime(2019, 09, 22),
