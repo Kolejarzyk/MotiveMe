@@ -2,6 +2,9 @@
 
 namespace MotiveMe.Model
 {
+	/*
+		Model for Activity
+	*/
     public class Activity
     {
         public DateTime Date { get; set; }

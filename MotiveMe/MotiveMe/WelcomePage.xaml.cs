@@ -4,9 +4,12 @@ using Xamarin.Forms;
 
 namespace MotiveMe
 {
-
+	/*
+		Applications Welcoming page
+	*/
 	public partial class WelcomePage : ContentPage
 	{
+		// Sets name of the user
         public string Name { get; set; }
         public WelcomePage ()
 		{
@@ -19,9 +22,6 @@ namespace MotiveMe
            
 
             Activity.ItemsSource = AppDatabase.activityDao.GetByDate(currentDate);
-
-
         }
-
     }
 }

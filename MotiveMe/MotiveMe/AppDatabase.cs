@@ -3,6 +3,10 @@ using System;
 
 namespace MotiveMe
 {
+	/*
+		Application's database
+		Contains name and notes of an activity
+	*/
     public static class AppDatabase
     {
         public static String Name { get; set; }

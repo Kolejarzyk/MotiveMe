@@ -4,8 +4,12 @@ using Xamarin.Forms;
 
 namespace MotiveMe
 {
+	/*
+		Main Page of MotiveMe
+	*/
     public partial class MainPage : ContentPage
     {
+		// Sets navigation and fills database on start
         public MainPage()
         {
             InitializeComponent();
@@ -13,12 +17,14 @@ namespace MotiveMe
             NavigationPage.SetHasNavigationBar(this, false);
         }
 
+		// On button click, adds a specified name to database.		
         private async void Button_Clicked(object sender, EventArgs e)
         {
             AppDatabase.Name = Name.Text;
             await this.Navigation.PushAsync(new MSPage());
         }
 
+		// Fills Database with set activities
         private void PopulateDatabase()
         {
             var activity = new Activity
@@ -37,7 +43,7 @@ namespace MotiveMe
             {
                 Date = new DateTime(2019, 01, 21),
                 ActivityVal = "Trzeba upiec ciastka",
-                Reward = "Zdany przedmiot"
+                Reward = "Słodkości"
             };
             var activity3 = new Activity
             {
@@ -48,7 +54,7 @@ namespace MotiveMe
             var activity4 = new Activity
             {
                 Date = new DateTime(2019, 01, 20),
-                ActivityVal = "Trzeba zrobić statystyke moich odechów",
+                ActivityVal = "Trzeba zrobić statystyke",
                 Reward = "Zdany przedmiot"
             };
 
