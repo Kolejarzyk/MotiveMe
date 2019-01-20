@@ -6,6 +6,9 @@ using System.Linq;
 
 namespace MotiveMe.DAO
 {
+	/*
+		Data Access Object for Activity
+	*/
    public class ActivityDAO
     {
         public ObservableCollection<Activity> ActivityDao;

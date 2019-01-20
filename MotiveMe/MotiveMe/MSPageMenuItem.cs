@@ -2,7 +2,9 @@
 
 namespace MotiveMe
 {
-
+	/*
+		Master Page item menu
+	*/
     public class MSPageMenuItem
     {
         public int Id { get; set; }

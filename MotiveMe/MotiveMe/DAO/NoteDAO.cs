@@ -4,6 +4,9 @@ using System.Text;
 
 namespace MotiveMe.DAO
 {
+	/*
+		Data Access Object for Activity
+	*/
    public class NoteDAO
     {
         public List<Note> NoteDao;

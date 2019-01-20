@@ -1,17 +1,18 @@
-
 using Plugin.LocalNotifications;
 using System;
 using Xamarin.Forms;    
 
-namespace MotiveMe {    
+namespace MotiveMe {
+    
+	/*
+		Class responsible for Alarms functionality
+	*/
     public partial class Alarms : ContentPage {    
         public Alarms() {    
-
-            InitializeComponent();
-
-            
+            InitializeComponent();            
         }
 
+		// Sets date of alarm notification
         private void Button_Clicked(object sender, System.EventArgs e)
         {
             CrossLocalNotifications.Current.Show(Title.Text.ToString(), 

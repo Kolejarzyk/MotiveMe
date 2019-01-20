@@ -5,8 +5,12 @@ using Xamarin.Forms;
 
 namespace MotiveMe
 {
+	/*
+		Master detail page
+	*/
     public partial class MSPage : MasterDetailPage
     {
+		// List of MasterPage items
         public List<MasterPageItem> MenuList { get; set; }
 
         public MSPage()

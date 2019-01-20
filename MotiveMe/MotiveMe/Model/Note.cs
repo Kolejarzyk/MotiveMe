@@ -4,6 +4,9 @@ using System.Text;
 
 namespace MotiveMe
 {
+	/*
+		Model for Activity
+	*/
     public class Note
     {
         public String Topic { get; set; }

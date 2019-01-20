@@ -10,14 +10,20 @@ using Xamarin.Forms.Xaml;
 
 namespace MotiveMe
 {
+	/*
+		Main Activity's detail page class
+	*/
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ActivityDetailPage : ContentPage
 	{
+		// Gets current activity displayed
         public Activity CurrentActivity { get; private set; }
         public ActivityDetailPage()
         {
 
         }
+		
+		// Starts the set activity
 		public ActivityDetailPage(Activity content)
 		{
 			InitializeComponent ();
@@ -29,6 +35,7 @@ namespace MotiveMe
 
         }
 
+		// Delete the activity from application's database
         private void Button_Clicked(object sender, EventArgs e)
         {
             AppDatabase.activityDao.DeleteActivity(CurrentActivity);

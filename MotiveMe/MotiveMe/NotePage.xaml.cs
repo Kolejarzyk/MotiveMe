@@ -2,7 +2,9 @@
 
 namespace MotiveMe
 {
-	
+	/*
+		Class responsible for note functionality and storage
+	*/
 	public partial class NotePage : ContentPage
 	{
         
@@ -13,12 +15,12 @@ namespace MotiveMe
             var note = new Note
             {
                 Topic = "Zmiana flagi",
-                Value = "Nie mogę zapomnieć żeby zmienić flagi oraz sztandary na apel który odbędzie się w Strzebielinie"
+                Value = "Nie mogę zapomnieć żeby zmienić flagi oraz sztandary na apel, który odbędzie się w Strzebielinie"
             };
             var note1 = new Note
             {
-                Topic = "Zmiana flagi",
-                Value = "Nie mogę zapomnieć żeby zmienić flagi oraz sztandary na apel który odbędzie się w Krakowie"
+                Topic = "Druga Zmiana flagi",
+                Value = "Nie mogę zapomnieć żeby zmienić flagi oraz sztandary na apel, który odbędzie się w Krakowie"
             };
             AppDatabase.noteDao.InsertNote(note);
             AppDatabase.noteDao.InsertNote(note1);
@@ -31,6 +33,7 @@ namespace MotiveMe
              
         }
 
+		// Moves upon note creation
         private void CreateNote_Clicked(object sender, System.EventArgs e)
         {
             Navigation.PushAsync(new CreateNotePage());
