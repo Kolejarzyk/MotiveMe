@@ -26,7 +26,8 @@ namespace MotiveMe
                 Reward = Reward.Text
             };
             AppDatabase.activityDao.InsertActivity(activity);
-            Application.Current.MainPage.Navigation.PopAsync();
+
+            Navigation.PushAsync(new ActivityLogsPage());
         }
     }
 }

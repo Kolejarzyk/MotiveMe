@@ -18,8 +18,8 @@
                 </ListView.ItemTemplate>
             </ListView>
 
-            <Label Text="Do you want to expand your achievment goal?"/>
-            <Button Text="Add Goal" BackgroundColor="NavajoWhite" HorizontalOptions="Start"></Button>
+            <Label Text="Do you want to expand your achievment goal? Check your Activity Logs to pursue your dream!"/>
+            
 
         </StackLayout>
 
