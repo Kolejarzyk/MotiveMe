@@ -43,7 +43,6 @@ C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.iOS\bin\iPhoneSim
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.iOS\bin\iPhoneSimulator\Debug\MotiveMe.dll
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.iOS\bin\iPhoneSimulator\Debug\MotiveMe.pdb
-C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.iOS\bin\iPhoneSimulator\Debug\MotiveMe.dll.mdb
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
@@ -56,3 +55,5 @@ C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.iOS\obj\iPhoneSim
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.iOS\obj\iPhoneSimulator\Debug\MotiveMe.iOS.csproj.CopyComplete
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.iOS\obj\iPhoneSimulator\Debug\MotiveMe.iOS.exe
 C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.iOS\obj\iPhoneSimulator\Debug\MotiveMe.iOS.pdb
+C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.iOS\bin\iPhoneSimulator\Debug\Plugin.LocalNotifications.Abstractions.dll
+C:\Users\Kolejarz\Documents\Project\MotiveMe\MotiveMe\MotiveMe.iOS\bin\iPhoneSimulator\Debug\Plugin.LocalNotifications.dll
