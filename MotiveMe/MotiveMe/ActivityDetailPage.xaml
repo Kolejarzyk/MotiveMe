@@ -4,8 +4,11 @@
              x:Class="MotiveMe.ActivityDetailPage" BackgroundColor="Purple">
     <ContentPage.Content>
         <StackLayout>
+            <Label Text="Your Goal"></Label>
             <Label x:Name="Goal"></Label>
+            <Label Text="Deadline"></Label>
             <Label x:Name="Date"></Label>
+            <Label Text="Your Reward"></Label>
             <Label x:Name="Reward"></Label>
             <Button Text="Done" Clicked="Button_Clicked"></Button>
         </StackLayout>
