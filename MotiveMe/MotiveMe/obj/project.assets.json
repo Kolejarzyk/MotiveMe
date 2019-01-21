@@ -58,21 +58,22 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
         ".nupkg.metadata",
-        "Microsoft.NETCore.Platforms.1.1.0.nupkg.sha512",
-        "Microsoft.NETCore.Platforms.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
         "runtime.json"
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "R73gEjqCkI2Nw/IlN8QvcgPNklqQiPowp47JwvW0Bnp/RZnjN4UrJwEvWVJWRK1MsQ+HIfGe9i4aQlfK+ei9jA==",
+      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -390,23 +391,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kolejarz\\.nuget\\packages\\": {},
+    "C:\\Users\\hasam\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kolejarz\\Documents\\Project\\MotiveMe\\MotiveMe\\MotiveMe\\MotiveMe.csproj",
+      "projectUniqueName": "C:\\Users\\hasam\\Desktop\\Wow\\MotiveMe\\MotiveMe\\MotiveMe\\MotiveMe.csproj",
       "projectName": "MotiveMe",
-      "projectPath": "C:\\Users\\Kolejarz\\Documents\\Project\\MotiveMe\\MotiveMe\\MotiveMe\\MotiveMe.csproj",
-      "packagesPath": "C:\\Users\\Kolejarz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kolejarz\\Documents\\Project\\MotiveMe\\MotiveMe\\MotiveMe\\obj\\",
+      "projectPath": "C:\\Users\\hasam\\Desktop\\Wow\\MotiveMe\\MotiveMe\\MotiveMe\\MotiveMe.csproj",
+      "packagesPath": "C:\\Users\\hasam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hasam\\Desktop\\Wow\\MotiveMe\\MotiveMe\\MotiveMe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kolejarz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hasam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
